@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Panel de noticias | Radar Tech & IA</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <header>
+    <h1>🧠 Panel de curaduría semanal</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="noticias.html">Noticias</a>
+      <a href="panel.html">Panel</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section">
+      <h2>🗞️ Edita tus titulares</h2>
+      <form id="formulario-noticia">
+        <input type="text" id="titulo" placeholder="Título de la noticia" required>
+        <textarea id="resumen" placeholder="Resumen breve" required></textarea>
+        <input type="text" id="fuente" placeholder="Fuente (ej. Toolify)">
+        <input type="url" id="enlace" placeholder="Enlace completo" required>
+        <button type="submit">Agregar noticia</button>
+      </form>
+
+      <div id="lista-noticias"></div>
+    </section>
+  </main>
+
+  <footer>
+    Radar Tech & IA © 2025 · Curado por Andrés
+  </footer>
+
+  <script src="scripts/panel.js"></script>
+</body>
+</html>

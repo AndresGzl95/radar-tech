@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Sobre Andrés | Radar Tech & IA</title>
+  <link rel="stylesheet" href="estilos.css">
+  <script>
+  document.getElementById("contact-form").addEventListener("submit", function (e) {
+    e.preventDefault(); // Evita el envío inmediato
+
+    // Simula el envío (puedes reemplazar esto con tu integración real)
+    fetch(this.action, {
+      method: "POST",
+      body: new FormData(this),
+      headers: {
+        Accept: "application/json"
+      }
+    })
+    .then(response => {
+      if (response.ok) {
+        alert("¡Mensaje enviado con éxito!");
+        this.reset(); // Limpia los campos
+      } else {
+        alert("Hubo un problema al enviar el mensaje.");
+      }
+    })
+    .catch(error => {
+      console.error("Error:", error);
+      alert("Error de conexión.");
+    });
+  });
+</script>
+</head>
+<body>
+
+  <header>
+    <h1>Radar Tech & IA</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="archivo.html">Archivo</a>
+      <a href="sobre.html">Sobre mí</a>
+      <a href="diario.html">Diario de lectura</a>
+      <a href="noticias.html">Noticias</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="author-box">
+      <h2>👨‍💻 Sobre Andrés</h2>
+      <p>Soy Andrés Roblero González, desarrollador de software con sólida experiencia en programación web, inteligencia artificial y análisis de datos. Me especializo en el uso de tecnologías como SQL Server, Java, Python, HTML y redes neuronales, aplicadas tanto en entornos académicos como empresariales.</p>
+      <p>Actualmente me desempeño como analista de datos en SYE Software, donde automatizo procesos, optimizo consultas complejas y gestiono grandes volúmenes de información. También he trabajado en proyectos de investigación en la UNAM, diseñando arquitecturas de redes neuronales y desplegando modelos en la nube con Google Cloud Platform.</p>
+      <p>Radar Tech & IA es mi espacio para compartir tendencias tecnológicas, reflexiones sobre el impacto de la IA y experiencias editoriales que conectan diseño, datos y divulgación. Aquí combino mi perfil técnico con una visión creativa para transformar información en conocimiento útil y accesible.</p>
+    </div>
+
+    <!-- SECCIÓN CONTACTO -->
+    <section id="contacto" class="section">
+      <h2>📬 Contacto</h2>
+      <div class="contenedor-form">
+        <form id="contact-form" action="https://formspree.io/f/mpwjkvza" method="POST">
+          <div class="fila mitad">
+            <input type="text" name="name" placeholder="Nombre Completo *" class="input-mitad">
+            <input type="email" name="email" placeholder="Dirección de Email" class="input-mitad">
+          </div>
+          <div class="fila">
+            <input type="text" name="tema" placeholder="Tema..." class="input-full">
+          </div>
+          <div class="fila">
+            <textarea name="text" cols="30" rows="6" placeholder="Tu Mensaje..." class="input-full"></textarea>
+          </div>
+          <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+          <input type="hidden" name="_next" value="https://tusitio.com/gracias.html">
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Radar Tech & IA © 2025 · Creado por Andrés Roblero González
+  </footer>
+
+</body>
+</html>
