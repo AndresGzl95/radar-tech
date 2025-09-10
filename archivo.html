@@ -7,16 +7,23 @@
 </head>
 <body>
 
-  <header>
-    <h1>Radar Tech & IA</h1>
-    <nav>
-      <a href="index.html">Inicio</a>
-      <a href="archivo.html">Archivo</a>
-      <a href="sobre.html">Sobre mí</a>
-      <a href="diario.html">Diario de lectura</a>
-      <a href="noticias.html">Noticias</a>
-    </nav>
-  </header>
+ <header>
+  <button class="toggle-menu" aria-label="Abrir menú">☰</button>
+  <h1>Radar Tech & IA</h1>
+  <p class="autor">Por Andrés · Desarrollador Web & Analista de Datos</p>
+</header>
+
+<nav class="radar-menu" id="radarMenu">
+  <button class="close-menu" aria-label="Cerrar menú">✕</button>
+  <ul>
+    <li><a href="index.html"><span class="icon">🧭</span> <span class="label">Panel</span></a></li>
+    <li><a href="noticias.html"><span class="icon">📡</span> <span class="label">Noticias</span></a></li>
+    <li><a href="capsulas.html"><span class="icon">🎙️</span> <span class="label">Cápsulas</span></a></li>
+    <li><a href="diario.html"><span class="icon">📓</span> <span class="label">Bitácora</span></a></li>
+    <li><a href="archivo.html"><span class="icon">📁</span> <span class="label">Archivo</span></a></li>
+    <li><a href="sobre.html"><span class="icon">🤝</span> <span class="label">Sobre Mi</span></a></li>
+  </ul>
+</nav>
 
   <main>
     <section class="timeline">
@@ -44,10 +51,27 @@
   </main>
 
   <footer>
-    Radar Tech & IA © 2025 · Curado por Andrés Roblero González
+    Radar Tech & IA © 2025 · Creado por Andrés González
   </footer>
 
   <script src="data/ediciones.js"></script>
   <script src="scripts.js"></script>
+    <script>
+  const toggleButton = document.querySelector('.toggle-menu');
+  const menu = document.querySelector('.radar-menu');
+
+  toggleButton.addEventListener('click', () => {
+    menu.classList.toggle('open');
+  });
+</script>
+<!-- Cerrar menú -->
+<script>
+  const closeButton = document.querySelector('.close-menu');
+
+  closeButton.addEventListener('click', () => {
+    menu.classList.remove('open');
+  });
+</script>
+<!--termina pie de pagina-->
 </body>
 </html>

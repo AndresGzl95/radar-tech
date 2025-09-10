@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Cápsulas Narradas · Radar Tech & IA</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <!-- Encabezado editorial -->
+  <header class="capsulas-header">
+    <button class="toggle-menu" aria-label="Abrir menú">☰</button>
+    <h1>Cápsulas Narradas · Radar Tech & IA</h1>
+    <p class="autor">
+      Por Andrés · Estratega digital y narrador editorial<br>
+      Reflexiones sobre tecnología, identidad y automatización.
+    </p>
+    <div class="intro-blog">
+      <p>
+        Esta sección recopila las cápsulas informativas y narrativas publicadas en Radar Tech & IA. Cada entrada combina análisis tecnológico con una mirada editorial accesible, visual y crítica.
+      </p>
+    </div>
+  </header>
+
+  <!-- Menú lateral -->
+  <nav class="radar-menu" id="radarMenu">
+    <button class="close-menu" aria-label="Cerrar menú">✕</button>
+    <ul>
+      <li><a href="index.html"><span class="icon">🧭</span> <span class="label">Panel</span></a></li>
+      <li><a href="noticias.html"><span class="icon">📡</span> <span class="label">Noticias</span></a></li>
+      <li><a href="capsulas.html"><span class="icon">🎙️</span> <span class="label">Cápsulas</span></a></li>
+      <li><a href="diario.html"><span class="icon">📓</span> <span class="label">Bitácora</span></a></li>
+      <li><a href="archivo.html"><span class="icon">📁</span> <span class="label">Archivo</span></a></li>
+      <li><a href="sobre.html"><span class="icon">🤝</span> <span class="label">Sobre mí</span></a></li>
+    </ul>
+  </nav>
+
+  <!-- Contenido dinámico -->
+  <main>
+    <section class="capsula-audio">
+  <h4>🎧 Cápsula narrada</h4>
+  <audio controls>
+    <source src="assets/audio/iphone-17-capsula.mp3" type="audio/mpeg">
+    Tu navegador no soporta audio HTML5.
+  </audio>
+  <p class="meta-audio">Narrador: Radar Tech & IA ·</p>
+</section>
+    <section id="edicion-dinamica" class="capsulas-listado">
+      <!-- Aquí se renderizan las cápsulas desde ediciones.js -->
+    </section>
+  </main>
+
+  <!-- Pie de página editorial -->
+  <footer class="blog-sources">
+    <div class="footer-contenido">
+      <h4>🔗 Fuentes consultadas</h4>
+      <ul>
+        <li><a href="https://www.milenio.com/tecnologia/apple-event-presentacion-nuevo-iphone-en-vivo-9-septiembre" target="_blank">Grupo Milenio</a></li>
+        <li><a href="https://www.applesfera.com/event/keynote-apple-9-septiembre-2025-directo-nuevos-iphone-17" target="_blank">Applesfera</a></li>
+        <li><a href="https://abcnoticias.mx/tendencia/2025/9/9/apple-event-2025-en-vivo-sigue-aqui-la-presentacion-del-iphone-17-minuto-minuto-260064.html" target="_blank">ABC Noticias</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="data/ediciones.js"></script>
+  <script src="scripts.js"></script>
+  <script>
+    const toggleButton = document.querySelector('.toggle-menu');
+    const closeButton = document.querySelector('.close-menu');
+    const menu = document.querySelector('#radarMenu');
+
+    toggleButton.addEventListener('click', () => {
+      menu.classList.toggle('open');
+    });
+
+    closeButton.addEventListener('click', () => {
+      menu.classList.remove('open');
+    });
+  </script>
+    <footer>
+    Radar Tech & IA © 2025 · Creado por Andrés González
+  </footer>
+</body>
+</html>
