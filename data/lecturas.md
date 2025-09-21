@@ -3,7 +3,7 @@
 ### 🎧 Escucha aquí:
 
 <audio controls aria-label="Cápsula editorial 2026">
-  <source src="assets/audio/identidad_2.webm" type="audio/mpeg">
+  <source src="assets/audio/identidad_2.webm" type="audio/webm">
   Tu navegador no soporta audio embebido.
 </audio>
 
@@ -98,4 +98,5 @@ Este artículo demuestra cómo un problema abierto puede inspirar generaciones d
 [Leer artículo completo en Google Docs](https://docs.google.com/document/d/e/2PACX-1vRvGvqbro0NjzBidNx0SXsmel6d1zx5FAjKpAMp2FqVpcfQbt5rX3KKlKDv7LxnkDPhoAT9vrx7-7GK/pub)
 
 ---
+
 
