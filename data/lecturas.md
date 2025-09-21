@@ -1,4 +1,44 @@
-### 🌿 Ensayo: “Call Me by Your Name – Verano eterno, el amor que se pronuncia en silencio”  
+## 📘 Identidad desde la psicología
+
+### 🎧 Escucha aquí:
+
+<audio controls aria-label="Cápsula editorial 2026">
+  <source src="assets/audio/identidad.mp4" type="audio/mpeg">
+  Tu navegador no soporta audio embebido.
+</audio>
+
+📥 [Descargar cápsula](assets/audio/identidad.mp4)
+
+
+
+### 📝 Transcripción
+
+La identidad, en el campo de la psicología, es una construcción dinámica...
+
+**Dimensiones clave:**
+- Características personales
+- Valores y creencias
+- Roles sociales
+- Narrativas personales
+
+![Tabla de teorías psicológicas](assets/img/Tabla.png)
+
+> “La identidad no es simplemente una colección de rasgos, sino una experiencia vivida…” — Erikson, 1968
+
+**📎 Enlace al ensayo completo:**
+[Ver documento completo en Google Docs](https://docs.google.com/document/d/e/2PACX-1vTX2tgEdFx80BZP8tpC4QWaM-tlHKV3ZIh-kiJuLzoUtXfeH-NeUmjCahT1L-J3dneXJNh0pnKHqLTn/pub)
+
+---
+### 🌿 Ensayo: “Call Me by Your Name – Verano eterno, el amor que se pronuncia en silencio”
+### 🎧 Escucha aquí:
+
+<audio controls aria-label="Cápsula editorial 2025">
+    <source src="assets/audio/CallMeBy.mp4" type="audio/mpeg">
+    Tu navegador no soporta audio embebido.
+  </audio>
+
+📥 [Descargar cápsula](ruta-del-audio/audio-de-la-capsula.mp3)
+
 **Reflexión:**  
 Este ensayo es una exploración íntima sobre el amor, el deseo y la memoria, a través de la novela de André Aciman. Ambientada en un verano italiano, la historia entre Elio y Oliver se convierte en un rito de paso emocional, donde el deseo no se grita, se pronuncia en gestos, silencios y recuerdos.
 
@@ -25,7 +65,16 @@ Call Me by Your Name no es solo una historia de amor. Es una invitación a reviv
 [Ver documento completo en Google Docs](https://docs.google.com/document/d/e/2PACX-1vQNkvUaQciZzXvQmqSYsJre8N4jA8ThSJo6w2r1N1bFOUBfwUDbLMJZnQy-znNQzR_1Hzq81Mm8WXOu/pub)
 
 ---
-### 🧮 Artículo: “Conjetura de Collatz – El misterio iterativo que desafía a la matemática moderna”  
+### 🧮 Artículo: “Conjetura de Collatz – El misterio iterativo que desafía a la matemática moderna”
+### 🎧 Escucha aquí:
+
+<audio controls aria-label="Cápsula editorial 2025">
+    <source src="assets/audio/collatz.mp4" type="audio/mpeg">
+    Tu navegador no soporta audio embebido.
+  </audio>
+
+📥 [Descargar cápsula](assets/audio/collatz.mp4)
+
 **Reflexión:**  
 Este artículo es una exploración profunda sobre la famosa conjetura de Collatz, también conocida como el problema 3n + 1. A pesar de su aparente simplicidad, ha desconcertado a matemáticos durante más de 80 años. El texto no solo presenta la historia de Lothar Collatz y su formulación original, sino que también analiza su impacto en la teoría de números, la complejidad computacional y el aprendizaje automático.
 
