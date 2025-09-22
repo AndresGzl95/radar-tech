@@ -7,7 +7,7 @@
 <section class="capsula-audio">
   <h4>🎧 Cápsula narrada</h4>
   <audio controls>
-    <source src="assets/audio/Meta.webm" type="audio/mpeg">
+    <source src="assets/audio/Meta.webm" type="audio/webm">
     Tu navegador no soporta audio HTML5.
   </audio>
   <p class="meta-audio">Narrador: Radar Tech & IA ·</p>
