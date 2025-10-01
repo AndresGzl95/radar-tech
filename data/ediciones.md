@@ -1,3 +1,67 @@
+# 🎬 Tilly Norwood: La primera actriz creada por IA sacude los cimientos de Hollywood
+---
+
+✍️ *Redacción editorial por Radar Tech & IA*  
+📡 *Narrativa, tecnología y reflexión en sintonía*
+
+📍 *Zúrich, Suiza* — En el marco del Festival de Cine de Zúrich, se presentó oficialmente a **Tilly Norwood**, la primera actriz generada íntegramente por inteligencia artificial. Creada por el estudio británico **Particle6** y representada por la agencia **Xicoia**, esta figura digital marca un antes y un después en la industria cinematográfica.
+<section class="capsula-audio">
+  <h4>🎧 Cápsula narrada</h4>
+  <audio controls>
+    <source src="assets/audio/tilly.webm" type="audio/webm">
+    Tu navegador no soporta audio HTML5.
+  </audio>
+  <p class="meta-audio">Narrador: Radar Tech & IA ·</p>
+</section>
+## 🧠 ¿Quién es Tilly Norwood?
+
+Tilly es un avatar con apariencia humana, capaz de interactuar en redes sociales, protagonizar sketches y simular emociones. Su debut ocurrió en el corto cómico *AI Commissioner*, y su creadora, **Eline Van der Velden**, aspira a convertirla en “la próxima Scarlett Johansson o Natalie Portman”.
+
+## ⚙️ Impacto tecnológico en la creación de contenido
+
+La irrupción de Tilly representa un avance radical en la automatización de procesos creativos:
+
+- Generación de personajes sin restricciones físicas ni presupuestales.
+- Producciones más ágiles, sin contratos ni desplazamientos.
+- Nuevas posibilidades narrativas: mundos virtuales, simulaciones hiperrealistas y adaptabilidad multiplataforma.
+
+## 📽️ Comparativa: Tilly Norwood vs. Pantallas verdes
+
+Ambas tecnologías buscan expandir los límites de lo posible en el cine, pero lo hacen desde ángulos distintos:
+
+| Aspecto                      | Tilly Norwood (IA)                                  | Pantallas verdes (Chroma Key)                   |
+|-----------------------------|-----------------------------------------------------|-------------------------------------------------|
+| Propósito                   | Crear actores digitales autónomos                   | Integrar escenarios o efectos visuales          |
+| Interacción humana          | Nula o simulada                                     | Requiere actores reales en escena               |
+| Control creativo            | Total sobre imagen, voz y comportamiento            | Parcial: depende de actuación y postproducción  |
+| Costos                      | Menores a largo plazo, sin contratos ni logística   | Costos variables según producción               |
+| Flexibilidad narrativa      | Alta: puede adaptarse a cualquier guion o estilo    | Alta: permite mundos imposibles o fantásticos   |
+| Riesgos éticos              | Suplantación de identidad, uso indebido de datos    | Menores, centrados en representación visual     |
+| Presencia emocional         | Simulada por algoritmos                             | Real, transmitida por actores humanos           |
+
+Ambas tecnologías transforman el cine, pero mientras el chroma key extiende el espacio físico, Tilly extiende el espacio humano. Una reemplaza escenarios; la otra, intérpretes.
+
+## ✅ Ventajas
+
+- Reducción de costos en producción.
+- Control total sobre imagen, voz y narrativa.
+- Personalización en tiempo real para distintos públicos y plataformas.
+
+## ❌ Desventajas y controversias
+
+- El sindicato **SAG-AFTRA** denunció que Tilly fue entrenada con el trabajo de actores reales sin consentimiento ni compensación.
+- Actores como **Emily Blunt** y **Melissa Barrera** expresaron su preocupación por la pérdida de conexión humana y el riesgo de desplazamiento laboral.
+- Se cuestiona la ética de representar emociones humanas sin vivencias reales, y el impacto en la autenticidad del arte.
+
+## 🔮 ¿El futuro del cine está en manos de la IA?
+
+La aparición de Tilly Norwood plantea una pregunta urgente: ¿puede el arte sobrevivir sin humanidad? Mientras algunos ven en la IA una herramienta creativa, otros alertan sobre la deshumanización del cine.
+
+> ¿Veremos películas protagonizadas por actores sintéticos?  
+> ¿Qué papel jugarán los intérpretes humanos en esta nueva era?
+
+🎭 La industria se encuentra en una encrucijada: abrazar la innovación o defender la tradición. Lo que es seguro es que Tilly Norwood no es solo una actriz virtual, sino el símbolo de una transformación que ya está en marcha.
+---
 ## 🕶️ Lentes de Realidad Aumentada: La evolución de la interacción humana
 
 **Fecha:** 2025-09-21  
@@ -71,3 +135,4 @@
 > Cada generación del iPhone no solo mejora en potencia, sino en cómo interpreta nuestras necesidades cotidianas.
 
 **Reflexión:** El salto entre el iPhone 15 y el 17 no es solo técnico: es filosófico. Apple construye un ecosistema donde la IA anticipa, adapta y acompaña.
+
