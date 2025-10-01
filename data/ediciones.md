@@ -62,8 +62,8 @@ La aparición de Tilly Norwood plantea una pregunta urgente: ¿puede el arte sob
 > ¿Qué papel jugarán los intérpretes humanos en esta nueva era?
 
 🎭 La industria se encuentra en una encrucijada: abrazar la innovación o defender la tradición. Lo que es seguro es que Tilly Norwood no es solo una actriz virtual, sino el símbolo de una transformación que ya está en marcha.
-
 ---
+
 ## 🕶️ Lentes de Realidad Aumentada: La evolución de la interacción humana
 
 **Fecha:** 2025-09-21  
@@ -137,5 +137,6 @@ La aparición de Tilly Norwood plantea una pregunta urgente: ¿puede el arte sob
 > Cada generación del iPhone no solo mejora en potencia, sino en cómo interpreta nuestras necesidades cotidianas.
 
 **Reflexión:** El salto entre el iPhone 15 y el 17 no es solo técnico: es filosófico. Apple construye un ecosistema donde la IA anticipa, adapta y acompaña.
+
 
 
