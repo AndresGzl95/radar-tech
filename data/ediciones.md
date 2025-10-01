@@ -13,6 +13,7 @@
   </audio>
   <p class="meta-audio">Narrador: Radar Tech & IA ·</p>
 </section>
+
 ## 🧠 ¿Quién es Tilly Norwood?
 
 Tilly es un avatar con apariencia humana, capaz de interactuar en redes sociales, protagonizar sketches y simular emociones. Su debut ocurrió en el corto cómico *AI Commissioner*, y su creadora, **Eline Van der Velden**, aspira a convertirla en “la próxima Scarlett Johansson o Natalie Portman”.
@@ -61,6 +62,7 @@ La aparición de Tilly Norwood plantea una pregunta urgente: ¿puede el arte sob
 > ¿Qué papel jugarán los intérpretes humanos en esta nueva era?
 
 🎭 La industria se encuentra en una encrucijada: abrazar la innovación o defender la tradición. Lo que es seguro es que Tilly Norwood no es solo una actriz virtual, sino el símbolo de una transformación que ya está en marcha.
+
 ---
 ## 🕶️ Lentes de Realidad Aumentada: La evolución de la interacción humana
 
@@ -135,4 +137,5 @@ La aparición de Tilly Norwood plantea una pregunta urgente: ¿puede el arte sob
 > Cada generación del iPhone no solo mejora en potencia, sino en cómo interpreta nuestras necesidades cotidianas.
 
 **Reflexión:** El salto entre el iPhone 15 y el 17 no es solo técnico: es filosófico. Apple construye un ecosistema donde la IA anticipa, adapta y acompaña.
+
 
