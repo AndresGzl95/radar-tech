@@ -5,11 +5,6 @@
 **Ciudad de México, 2 de octubre de 2025**
 
 OpenAI, la empresa pionera detrás de ChatGPT, ha vuelto a sacudir el panorama tecnológico con el lanzamiento de **Sora 2**, la evolución de su modelo de generación de video a partir de texto, y una nueva aplicación móvil que redefine la interacción social digital. Esta nueva versión no solo mejora drásticamente la calidad visual y sonora de los clips generados, sino que introduce una dimensión participativa: los usuarios pueden insertarse en los mundos que crean, convirtiéndose en protagonistas de narrativas hiperrealistas.
-
-✍️ *Redacción editorial por Radar Tech & IA*  
-📡 *Narrativa, tecnología y reflexión en sintonía*
-
-📍 *Zúrich, Suiza* — En el marco del Festival de Cine de Zúrich, se presentó oficialmente a **Tilly Norwood**, la primera actriz generada íntegramente por inteligencia artificial. Creada por el estudio británico **Particle6** y representada por la agencia **Xicoia**, esta figura digital marca un antes y un después en la industria cinematográfica.
 <section class="capsula-audio">
   <h4>🎧 Cápsula narrada</h4>
   <audio controls>
@@ -206,6 +201,7 @@ La aparición de Tilly Norwood plantea una pregunta urgente: ¿puede el arte sob
 > Cada generación del iPhone no solo mejora en potencia, sino en cómo interpreta nuestras necesidades cotidianas.
 
 **Reflexión:** El salto entre el iPhone 15 y el 17 no es solo técnico: es filosófico. Apple construye un ecosistema donde la IA anticipa, adapta y acompaña.
+
 
 
 
