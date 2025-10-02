@@ -2,14 +2,14 @@
 **Por M.I. Luis Andrés R. González**
 
 > “No somos más que ecos en la llanura, cabalgando entre lo que fuimos y lo que nunca seremos.”
-<section class="capsula-audio">
-  <h4>🎧 Cápsula narrada</h4>
-  <audio controls>
-    <source src="assets/audio/rdr2.webm" type="audio/webm">
-    Tu navegador no soporta audio HTML5.
-  </audio>
-  <p class="meta-audio">Narrador: Radar Tech & IA ·</p>
-</section>
+### 🎧 Escucha aquí:
+
+<audio controls aria-label="Cápsula editorial 2026">
+  <source src="assets/audio/rdr2.webm" type="audio/webm">
+  Tu navegador no soporta audio embebido.
+</audio>
+
+📥 [Descargar cápsula](assets/audio/rdr2.webm)
 
 ---
 
@@ -185,6 +185,7 @@ Este artículo demuestra cómo un problema abierto puede inspirar generaciones d
 [Leer artículo completo en Google Docs](https://docs.google.com/document/d/e/2PACX-1vRvGvqbro0NjzBidNx0SXsmel6d1zx5FAjKpAMp2FqVpcfQbt5rX3KKlKDv7LxnkDPhoAT9vrx7-7GK/pub)
 
 ---
+
 
 
 
