@@ -1,7 +1,21 @@
-// Ejemplo: mostrar alerta al cargar nueva edición
+// =============================================
+// Archivo: scripts.js
+// Descripción: Lógica general para la carga dinámica de ediciones, noticias y lecturas.
+// Incluye funciones para renderizar contenido editorial y cargar recursos externos.
+// =============================================
+
+// ===============================
+// Evento: window.onload
+// Descripción: Mensaje de bienvenida en consola al cargar la página.
+// ===============================
 window.onload = function() {
   console.log("Bienvenido a Radar Tech & IA · Edición Septiembre 2025");
 };
+
+// ===============================
+// Evento: DOMContentLoaded para edición dinámica
+// Descripción: Carga y renderiza la edición actual en el contenedor principal.
+// ===============================
 document.addEventListener("DOMContentLoaded", () => {
   const contenedor = document.getElementById("edicion-dinamica");
   const edicionActual = ediciones.find(e => e.id === "octubre-2025");
@@ -16,12 +30,21 @@ document.addEventListener("DOMContentLoaded", () => {
     `;
   }
 });
+
+// ===============================
+// Carga de lecturas desde archivo markdown
+// Descripción: Obtiene y renderiza el contenido de lecturas.md en el diario.
+// ===============================
 fetch("data/lecturas.md")
   .then(response => response.text())
   .then(texto => {
     document.getElementById("contenido-diario").innerHTML = marked.parse(texto);
   });
-  
+
+// ===============================
+// Evento: DOMContentLoaded para noticias semanales
+// Descripción: Renderiza las noticias semanales de IA si existen.
+// ===============================
 document.addEventListener("DOMContentLoaded", () => {
   const contenedor = document.getElementById("noticias-semanales");
   if (!contenedor || typeof noticiasIA === "undefined") return;
@@ -38,6 +61,11 @@ document.addEventListener("DOMContentLoaded", () => {
     contenedor.appendChild(bloque);
   });
 });
+
+// ===============================
+// Función: renderCapsulas
+// Descripción: Renderiza todas las cápsulas editoriales en el contenedor principal.
+// ===============================
 function renderCapsulas() {
   const contenedor = document.getElementById("edicion-dinamica");
   contenedor.innerHTML = ediciones.map(e => `

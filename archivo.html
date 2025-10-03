@@ -1,18 +1,32 @@
+<!--
+  Archivo: archivo.html
+  Descripción: Archivo histórico y recursos de Radar Tech & IA.
+  Comentarios agregados para referencia y mantenimiento.
+-->
 <!DOCTYPE html>
 <html lang="es">
+<!-- ===============================
+  HEAD: Metadatos y estilos
+  =============================== -->
 <head>
   <meta charset="UTF-8">
   <title>Archivo editorial | Radar Tech & IA</title>
   <link rel="stylesheet" href="estilos.css">
 </head>
+
+<!-- ===============================
+  BODY: Estructura principal
+  =============================== -->
 <body>
 
- <header>
+<!-- Encabezado principal del archivo -->
+<header>
   <button class="toggle-menu" aria-label="Abrir menú">☰</button>
   <h1>Radar Tech & IA</h1>
   <p class="autor">Por Andrés · Desarrollador Web & Analista de Datos</p>
 </header>
 
+<!-- Menú de navegación lateral -->
 <nav class="radar-menu" id="radarMenu">
   <button class="close-menu" aria-label="Cerrar menú">✕</button>
   <ul>
@@ -25,6 +39,7 @@
   </ul>
 </nav>
 
+  <!-- Contenido principal del archivo -->
   <main>
     <section class="timeline">
       <h2>🗓 Archivo editorial</h2>
@@ -73,5 +88,9 @@
   });
 </script>
 <!--termina pie de pagina-->
+
+<!-- Chatbot accesible: integración universal -->
+<div id="chatbot-container"></div>
+<script src="/chatbot.js"></script>
 </body>
 </html>
