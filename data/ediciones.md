@@ -1,3 +1,88 @@
+# 🧠 Radar Tech & IA | Informe Especial  
+## Avances en Inteligencia Artificial | Semana del 6 al 10 de octubre de 2025
+
+**M.I. Andrés González**  
+*Radar Tech & IA*
+
+> **Resumen editorial**  
+> La inteligencia artificial no solo evoluciona: redefine el lenguaje, el diseño, la salud y la geopolítica. Esta semana, los avances más destacados revelan un futuro donde la IA es aliada narrativa, técnica y emocional.
+<section class="capsula-audio">
+  <h4>🎧 Cápsula narrada</h4>
+  <audio controls>
+    <source src="assets/audio/resumen.webm" type="audio/webm">
+    Tu navegador no soporta audio HTML5.
+  </audio>
+  <p class="meta-audio">Narrador: Radar Tech & IA ·</p>
+</section>
+
+---
+
+### 🔍 Comprensión profunda del lenguaje  
+**Tema**: Procesamiento de Lenguaje Natural (PLN)  
+**Avance**: Modelos que comprenden ironía, emociones y contexto cultural.  
+**Aplicaciones**:
+- Interfaces conversacionales empáticas.
+- Cápsulas narradas adaptadas al tono del usuario.
+- Simulaciones educativas con coherencia narrativa.
+
+📌 *Ideal para*: asistentes virtuales, narrativa automatizada, divulgación emocional.
+
+---
+
+### 🎨 IA generativa para diseño y código  
+**Herramientas destacadas**: Copilot Studio, Figma AI, Gemini Code  
+**Capacidades**:
+- Generación de interfaces web y micrositios modulares.
+- Automatización de documentación técnica y visualizaciones.
+- Creación de borradores narrativos con estilo editorial.
+
+📌 *Ideal para*: flujos creativos ágiles, portafolios interactivos, cápsulas visuales.
+
+---
+
+### ⚙️ Hardware inteligente y robótica  
+**Invento destacado**: Chips cuánticos híbridos (*TIME 2025*)  
+**Avances**:
+- Robots autónomos para logística, salud y movilidad.
+- Dispositivos con IA para accesibilidad y personalización.
+
+📌 *Ideal para*: visualización técnica, traducción en tiempo real, interfaces multisensoriales.
+
+---
+
+### 🌱 IA para bienestar y educación  
+**Evento**: IX Congreso Internacional sobre la Felicidad  
+**Aplicaciones**:
+- Modelos que detectan estados de ánimo.
+- Sistemas educativos personalizados según estilo cognitivo.
+
+📌 *Ideal para*: narrativa psicológica, educación inclusiva, divulgación emocional.
+
+---
+
+### 🌐 Geopolítica de la IA  
+**Fuente**: Forbes  
+**Tendencias**:
+- EE.UU. lidera en cómputo.
+- China domina infraestructura.
+- EAU y Arabia Saudita emergen como potencias tecnológicas.
+
+📌 *Ideal para*: reflexión sobre soberanía digital y gobernanza algorítmica.
+
+---
+
+### 🧭 Reflexión editorial  
+La IA ya no es solo herramienta: es compañera narrativa, técnica y emocional. En Radar Tech & IA, estos avances se integran como cápsulas, visualizaciones y propuestas modulares que conectan identidad digital, automatización y divulgación.
+
+---
+
+**Fuentes**:  
+- [TIME – Inventos 2025](https://www.infobae.com/tecno/2025/10/09/la-revista-time-revelo-los-300-mejores-inventos-tecnologicos-de-2025/)  
+- [TecnoNautas – Avances en IA](https://tecnonautas.net/lo-ultimo-en-ia-10-avances-que-estan-cambiando-el-mundo-en-2025/)  
+- [Congreso sobre IA y bienestar](https://www.msn.com/es-es/estilo/estilo/un-congreso-sobre-la-felicidad-llega-a-la-universidad-de-le%C3%B3n-abordar%C3%A1-la-inteligencia-artificial-aplicada-al-bienestar/ar-AA1OmH7t)  
+- [Forbes – Superpotencias IA](https://www.forbesargentina.com/rankings/las-10-superpotencias-inteligencia-artificial-2025-quien-domina-ia-quien-quedo-afuera-n78198)
+---
+
 # OpenAI Lanza Sora 2 y Desafía la Realidad con su Nueva App Social de Videos Generados por IA
 
 ### El modelo de texto a video alcanza un hiperrealismo sin precedentes y se convierte en una plataforma social con "Cameos" digitales, marcando un hito en la simulación de mundos.
@@ -201,6 +286,7 @@ La aparición de Tilly Norwood plantea una pregunta urgente: ¿puede el arte sob
 > Cada generación del iPhone no solo mejora en potencia, sino en cómo interpreta nuestras necesidades cotidianas.
 
 **Reflexión:** El salto entre el iPhone 15 y el 17 no es solo técnico: es filosófico. Apple construye un ecosistema donde la IA anticipa, adapta y acompaña.
+
 
 
 
