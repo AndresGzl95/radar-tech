@@ -1,18 +1,33 @@
+<!--
+  Archivo: index.html
+  Descripción: Página principal de Radar Tech & IA.
+  Estructura: Encabezado, menú, contenido principal, timeline, pie de página y chatbot accesible.
+  Comentarios agregados para referencia y mantenimiento.
+-->
 <!DOCTYPE html>
 <html lang="es">
+<!-- ===============================
+  HEAD: Metadatos y estilos
+  =============================== -->
 <head>
   <meta charset="UTF-8">
   <title>Radar Tech & IA | Septiembre 2025</title>
   <link rel="stylesheet" href="estilos.css">
 </head>
+
+<!-- ===============================
+  BODY: Estructura principal
+  =============================== -->
 <body>
 
+  <!-- Encabezado principal -->
   <header>
   <button class="toggle-menu" aria-label="Abrir menú">☰</button>
   <h1>Radar Tech & IA</h1>
   <p class="autor">Por Andrés · Desarrollador Web & Analista de Datos</p>
 </header>
 
+<!-- Menú de navegación lateral -->
 <nav class="radar-menu" id="radarMenu">
   <button class="close-menu" aria-label="Cerrar menú">✕</button>
   <ul>
@@ -25,19 +40,22 @@
   </ul>
 </nav>
 
+  <!-- Contenido principal -->
   <main>
     <div class="author-box">
       <strong>Sobre el autor:</strong><br>
       Soy un desarrollador web con dominio avanzado en SQL Server, HTML, CSS, JavaScript y frameworks modernos. Especialista en análisis de datos y visualización con Power BI y Python. Apasionado por la tecnología, la literatura y el diseño funcional, crea experiencias digitales que conectan innovación con sensibilidad creativa.
     </div>
 
+<!-- Sección de introducción -->
 <div class="section intro">
     <h2>🔍 Introducción</h2>
     <p>
     La primera semana de septiembre nos dejó una avalancha de novedades tecnológicas que redefinen cómo vivimos, descansamos y nos conectamos. Desde robots que limpian en 3D hasta supercomputadoras cuánticas, pasando por auriculares que mejoran el sueño y filtraciones del nuevo iPhone 17 Air. Aquí te presentamos lo más relevante, con un enfoque claro, visual y directo.
     </p>
 </div>
-    <div class="section">
+  <!-- Sección IFA Berlín -->
+  <div class="section">
       <h2>🚀 IFA Berlín 2025</h2>
       <img src="assets/img/dreame-cyber-x.jpg" alt="Robot Dreame Cyber X subiendo escaleras" width="100%">
       <ul>
@@ -48,7 +66,8 @@
       <p class="quote">“La limpieza del hogar está entrando en una nueva era: autónoma, inteligente y casi cinematográfica.”</p>
     </div>
 
-    <div class="section">
+  <!-- Sección Apple Event -->
+  <div class="section">
       <h2>🍏 Apple Event</h2>
       <img src="assets/img/iphone-17-air.jpg" alt="iPhone 17 Air ultradelgado" width="100%">
       <ul>
@@ -59,7 +78,8 @@
       <p class="quote">“Apple no solo lanza productos, redefine cómo interactuamos con la tecnología.”</p>
     </div>
 
-    <div class="section">
+  <!-- Sección QuantumX NVIDIA -->
+  <div class="section">
       <h2>🧬 QuantumX de NVIDIA</h2>
       <img src="assets/img/nvidia-quantumx.jpeg" alt="Supercomputadora QuantumX de NVIDIA" width="100%">
       <ul>
@@ -69,7 +89,8 @@
       <p class="quote">“QuantumX no es solo hardware, es el nuevo cerebro de la inteligencia artificial.”</p>
     </div>
 
-    <div class="section">
+  <!-- Sección Auriculares para dormir -->
+  <div class="section">
       <h2>🎧 Auriculares para dormir</h2>
       <img src="assets/img/soundcore-a20.jpg" alt="Auriculares Soundcore A20 para dormir" width="100%">
       <ul>
@@ -80,7 +101,8 @@
       <p class="quote">“Dormir bien también es una experiencia tecnológica.”</p>
     </div>
 
-    <div class="section">
+  <!-- Sección Chips e IA -->
+  <div class="section">
       <h2>📈 Chips e IA</h2>
       <img src="assets/img/tsmc-ai-chips.jpg" alt="Gráfica de inversión en chips para IA por TSMC" width="100%">
       <ul>
@@ -90,7 +112,8 @@
       </ul>
     </div>
 
-    <div class="section">
+  <!-- Sección Meta y moderación -->
+  <div class="section">
       <h2>🧠 Meta y moderación</h2>
       <img src="assets/img/meta-community-notes.jpg" alt="Notas comunitarias de Meta en redes sociales" width="100%">
       <ul>
@@ -110,6 +133,7 @@
 <script src="scripts.js"></script>
 <!--termina seccion-->
 <!-- Cargar edición dinámica -->
+<!-- Timeline de ediciones -->
 <section class="timeline">
   <h2>🗓 Archivo Editorial</h2>
   <div class="timeline-container">
@@ -130,6 +154,7 @@
 </section>
 <!--termina seccion-->
 <!--Pie de Pagina, no mover-->
+  <!-- Pie de página de fuentes -->
   <footer>
     <strong>Fuentes:</strong><br>
     Hola Techies – Novedades IFA y Apple<br>
@@ -152,9 +177,14 @@
     menu.classList.remove('open');
   });
 </script>
-    <footer>
+  <!-- Pie de página legal -->
+  <footer>
     Radar Tech & IA © 2025 · Creado por Andrés González
   </footer>
+
+<!-- Chatbot accesible: integración universal -->
+<div id="chatbot-container"></div>
+<script src="chatbot.js"></script>
 <!--termina pie de pagina-->
 </body>
 </html>

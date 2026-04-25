@@ -1,18 +1,32 @@
+<!--
+  Archivo: diario.html
+  Descripción: Bitácora y diario de lectura de Radar Tech & IA.
+  Comentarios agregados para referencia y mantenimiento.
+-->
 <!DOCTYPE html>
 <html lang="es">
+<!-- ===============================
+  HEAD: Metadatos y estilos
+  =============================== -->
 <head>
   <meta charset="UTF-8">
   <title>Diario de lectura tec | Radar Tech & IA</title>
   <link rel="stylesheet" href="estilos.css">
 </head>
+
+<!-- ===============================
+  BODY: Estructura principal
+  =============================== -->
 <body>
 
+<!-- Encabezado principal de la bitácora -->
 <header>
   <button class="toggle-menu" aria-label="Abrir menú">☰</button>
   <h1>Radar Tech & IA</h1>
   <p class="autor">Por Andrés · Desarrollador Web & Analista de Datos</p>
 </header>
 
+<!-- Menú de navegación lateral -->
 <nav class="radar-menu" id="radarMenu">
   <button class="close-menu" aria-label="Cerrar menú">✕</button>
   <ul>
@@ -25,6 +39,7 @@
   </ul>
 </nav>
 
+  <!-- Contenido principal del diario -->
   <main>
     <!-- Seccion de audio -->
      <!--
@@ -54,7 +69,8 @@
 </div>
 </section>-->
   <!-- Termina seccion de audio -->
-    <section class="section diario">
+  <!-- Sección de reflexiones personales -->
+  <section class="section diario">
       <h2>📖 Diario de lectura tec</h2>
       <p>Reflexiones personales sobre libros, artículos y cursos recientes que han influido en mi visión sobre tecnología, inteligencia artificial, diseño y divulgación digital.</p>
       <div id="contenido-diario">
@@ -87,5 +103,9 @@
   });
 </script>
 <!--termina pie de pagina-->
+
+<!-- Chatbot accesible: integración universal -->
+<div id="chatbot-container"></div>
+<script src="/chatbot.js"></script>
 </body>
 </html>

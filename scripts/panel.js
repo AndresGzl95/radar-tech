@@ -1,3 +1,9 @@
+// =============================================
+// Archivo: panel.js
+// Descripción: Lógica para el panel de administración de noticias.
+// Permite agregar noticias mediante un formulario y renderizarlas dinámicamente.
+// =============================================
+
 const noticias = [];
 
 document.getElementById("formulario-noticia").addEventListener("submit", function (e) {
@@ -15,6 +21,11 @@ document.getElementById("formulario-noticia").addEventListener("submit", functio
   this.reset();
 });
 
+// ===============================
+// Evento: submit del formulario de noticias
+// Descripción: Captura los datos del formulario, crea una nueva noticia y actualiza la vista.
+// ===============================
+
 function actualizarVista() {
   const contenedor = document.getElementById("lista-noticias");
   contenedor.innerHTML = "";
@@ -31,3 +42,8 @@ function actualizarVista() {
     contenedor.appendChild(bloque);
   });
 }
+
+// ===============================
+// Función: actualizarVista
+// Descripción: Renderiza la lista de noticias en el contenedor correspondiente.
+// ===============================
