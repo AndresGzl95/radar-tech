@@ -2,44 +2,81 @@
 window.onload = function() {
   console.log("Bienvenido a Radar Tech & IA · Edición Septiembre 2025");
 };
-document.addEventListener("DOMContentLoaded", () => {
-  const contenedor = document.getElementById("edicion-dinamica");
-  const edicionActual = ediciones.find(e => e.id === "octubre-2025");
 
-  if (edicionActual) {
-    contenedor.innerHTML = `
-      <h1>${edicionActual.titulo}</h1>
-      <p class="autor">Por ${edicionActual.autor} · ${edicionActual.fecha}</p>
-      <img src="${edicionActual.imagen}" alt="Imagen de la edición" />
-      <p><em>${edicionActual.resumen}</em></p>
-      ${edicionActual.contenido}
-    `;
+function renderMarkdownFile(path, elementId) {
+  const contenedor = document.getElementById(elementId);
+  if (!contenedor) return;
+
+  return fetch(path)
+    .then(response => {
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      return response.text();
+    })
+    .then(texto => {
+      if (typeof marked === "undefined") {
+        contenedor.innerHTML = texto.replace(/\n/g, "<br>");
+        return;
+      }
+      contenedor.innerHTML = marked.parse(texto);
+    })
+    .catch(error => {
+      contenedor.innerHTML = `<p>❌ No se pudo cargar el contenido de ${path}.</p>`;
+      console.error(`Error al cargar ${path}:`, error);
+    });
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  const capsulasContainer = document.getElementById("edicion-dinamica");
+  if (capsulasContainer) {
+    renderMarkdownFile("data/ediciones.md", "edicion-dinamica");
+  }
+
+  const diarioContenedor = document.getElementById("contenido-diario");
+  if (diarioContenedor) {
+    renderMarkdownFile("data/lecturas.md", "contenido-diario");
+  }
+
+  const noticiasContainer = document.getElementById("noticias-semanales");
+  if (noticiasContainer && typeof noticiasIA !== "undefined") {
+    noticiasIA.forEach(noticia => {
+      const bloque = document.createElement("div");
+      bloque.className = "noticia";
+      bloque.innerHTML = `
+        <h3>${noticia.titulo}</h3>
+        <p>${noticia.resumen}</p>
+        <p><strong>Fuente:</strong> ${noticia.fuente}</p>
+        <a href="${noticia.enlace}" target="_blank">Leer más</a>
+      `;
+      noticiasContainer.appendChild(bloque);
+    });
   }
 });
-fetch("data/lecturas.md")
-  .then(response => response.text())
-  .then(texto => {
-    document.getElementById("contenido-diario").innerHTML = marked.parse(texto);
-  });
-  
-document.addEventListener("DOMContentLoaded", () => {
-  const contenedor = document.getElementById("noticias-semanales");
-  if (!contenedor || typeof noticiasIA === "undefined") return;
 
-  noticiasIA.forEach(noticia => {
-    const bloque = document.createElement("div");
-    bloque.className = "noticia";
-    bloque.innerHTML = `
-      <h3>${noticia.titulo}</h3>
-      <p>${noticia.resumen}</p>
-      <p><strong>Fuente:</strong> ${noticia.fuente}</p>
-      <a href="${noticia.enlace}" target="_blank">Leer más</a>
-    `;
-    contenedor.appendChild(bloque);
-  });
-});
+function setupMenuToggle() {
+  const toggleButton = document.querySelector('.toggle-menu');
+  const closeButton = document.querySelector('.close-menu');
+  const menu = document.querySelector('.radar-menu');
+
+  if (toggleButton && menu) {
+    toggleButton.addEventListener('click', () => {
+      menu.classList.toggle('open');
+    });
+  }
+
+  if (closeButton && menu) {
+    closeButton.addEventListener('click', () => {
+      menu.classList.remove('open');
+    });
+  }
+}
+
+document.addEventListener("DOMContentLoaded", setupMenuToggle);
+
 function renderCapsulas() {
+  if (typeof ediciones === "undefined") return;
   const contenedor = document.getElementById("edicion-dinamica");
+  if (!contenedor) return;
+
   contenedor.innerHTML = ediciones.map(e => `
     <article class="blog-post" id="${e.id}">
       <h2>${e.titulo}</h2>
@@ -79,7 +116,6 @@ function renderCapsulas() {
   </section>
 ` : ""}
   `).join("");
-  
 }
 
 document.addEventListener("DOMContentLoaded", renderCapsulas);
