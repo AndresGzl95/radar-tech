@@ -31,23 +31,13 @@
       <li><a href="capsulas.html"><span class="icon">🎙️</span> <span class="label">Cápsulas</span></a></li>
       <li><a href="diario.html"><span class="icon">📓</span> <span class="label">Bitácora</span></a></li>
       <!--<li><a href="archivo.html"><span class="icon">📁</span> <span class="label">Archivo</span></a></li>-->
-      <li><a href="sobre.html"><span class="icon">🤝</span> <span class="label">Sobre mí</span></a></li>
     </ul>
   </nav>
 
   <!-- Contenido dinámico -->
   <main>
-    <!-- 
-    <section class="capsula-audio">
-  <h4>🎧 Cápsula narrada</h4>
-  <audio controls>
-    <source src="assets/audio/iphone-17-capsula.mp3" type="audio/mpeg">
-    Tu navegador no soporta audio HTML5.
-  </audio>
-  <p class="meta-audio">Narrador: Radar Tech & IA ·</p>
-</section>-->
-    <section id="edicion-dinamica" class="capsulas-listado">
-      <!-- Aquí se renderizan las cápsulas desde ediciones.js -->
+    <section id="edicion-dinamica" class="section capsulas-listado">
+      <p>🔄 Cargando cápsulas desde el archivo Markdown...</p>
     </section>
   </main>
 
@@ -68,33 +58,7 @@
   <!--<script src="data/ediciones.js"></script>-->
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script src="scripts.js"></script>
-  <script>
-    const toggleButton = document.querySelector('.toggle-menu');
-    const closeButton = document.querySelector('.close-menu');
-    const menu = document.querySelector('#radarMenu');
-
-    toggleButton.addEventListener('click', () => {
-      menu.classList.toggle('open');
-    });
-
-    closeButton.addEventListener('click', () => {
-      menu.classList.remove('open');
-    });
-   // 🧠 Renderizar cápsulas desde ediciones.md
-  const contenedor = document.getElementById("edicion-dinamica");
-
-  fetch("data/ediciones.md")
-    .then(response => response.text())
-    .then(markdown => {
-      const html = marked.parse(markdown);
-      contenedor.innerHTML = html;
-    })
-    .catch(error => {
-      contenedor.innerHTML = "<p>❌ No se pudo cargar el contenido de ediciones.md.</p>";
-      console.error("Error al cargar ediciones.md:", error);
-    });
-
-  </script>
+  <!-- Menu toggle is handled by scripts.js -->
   
     <footer>
     Radar Tech & IA © 2025 · Creado por Andrés González
