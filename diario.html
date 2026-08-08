@@ -21,46 +21,32 @@
     <li><a href="capsulas.html"><span class="icon">🎙️</span> <span class="label">Cápsulas</span></a></li>
     <li><a href="diario.html"><span class="icon">📓</span> <span class="label">Bitácora</span></a></li>
     <!--<li><a href="archivo.html"><span class="icon">📁</span> <span class="label">Archivo</span></a></li>-->
-    <li><a href="sobre.html"><span class="icon">🤝</span> <span class="label">Sobre Mi</span></a></li>
+
   </ul>
 </nav>
 
   <main>
-    <!-- Seccion de audio -->
-     <!--
-<section class="audio-capsula">
-  <h2>🎧 Cápsula editorial: Call me by your name</h2>
-  <audio controls aria-label="Cápsula editorial 2025">
-    <source src="assets/audio/CallMeBy.mp4" type="audio/mpeg">
-    Tu navegador no soporta audio embebido.
-  </audio>
-  <p><a href="assets/audio/CallMeBy.mp4" download>📥 Descargar cápsula</a></p>
- <div class="transcripcion">
-  <h3>📝 Transcripción</h3>
-  <p>En esta cápsula, reflexiono sobre la novela "Call me by your name" de André Aciman, explorando sus temas de identidad, deseo y el impacto duradero del primer amor. Acompáñame en este viaje literario que conecta emociones profundas con la experiencia humana universal.</p>
-</div>
-</section
+    <!-- Sección de audio comentada intencionalmente. -->
 
-<section class="audio-capsula">
-  <h2>🎧 Cápsula editorial: Conjetura de Collatz</h2>
-  <audio controls aria-label="Cápsula editorial 2025">
-    <source src="assets/audio/collatz.mp4" type="audio/mpeg">
-    Tu navegador no soporta audio embebido.
-  </audio>
-  <p><a href="assets/audio/collatz.mp4" download>📥 Descargar cápsula</a></p>
- <div class="transcripcion">
-  <h3>📝 Transcripción</h3>
-  <p>En esta cápsula, reflexiono sobre la Conjetura de Collatz, un enigma matemático que ha fascinado a los expertos durante décadas. Acompáñame a desentrañar sus misterios y su relevancia en el mundo de la computación.</p>
-</div>
-</section>-->
-  <!-- Termina seccion de audio -->
-    <section class="section diario">
-      <h2>📖 Diario de lectura tec</h2>
-      <p>Reflexiones personales sobre libros, artículos y cursos recientes que han influido en mi visión sobre tecnología, inteligencia artificial, diseño y divulgación digital.</p>
-      <div id="contenido-diario">
-        <!-- Aquí se cargará el contenido desde lecturas.md -->
-      </div>
-    </section>
+  <section class="section diario">
+    <h2>📖 Diario de lectura tec</h2>
+    <p>Reflexiones personales sobre libros, artículos y cursos recientes que han influido en mi visión sobre tecnología, inteligencia artificial, diseño y divulgación digital.</p>
+    <div id="contenido-diario">
+      <article class="card">
+        <h3>🧠 Curso destacado: Data Science y Visualización</h3>
+        <p>Este curso reforzó mis habilidades en análisis de datos, narrativas visuales y diseño de soluciones digitales centradas en el usuario.</p>
+        <p><strong>Temas:</strong> Python, pandas, dashboards, storytelling con datos y machine learning.</p>
+      </article>
+      <article class="card">
+        <h3>📘 Lectura de referencia: Ética en Inteligencia Artificial</h3>
+        <p>Exploro cómo los algoritmos afectan la privacidad, la inclusión y la toma de decisiones en productos tecnológicos actuales.</p>
+      </article>
+      <article class="card">
+        <h3>🎧 Reflexión editorial</h3>
+        <p>La tecnología debe ser una herramienta que potencie, no que reemplace, las historias humanas. Mi diario combina críticas, ideas y experiencias prácticas para crear tecnología con sentido.</p>
+      </article>
+    </div>
+  </section>
 
   </main>
 
@@ -70,22 +56,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script src="scripts.js"></script>
-    <script>
-  const toggleButton = document.querySelector('.toggle-menu');
-  const menu = document.querySelector('.radar-menu');
-
-  toggleButton.addEventListener('click', () => {
-    menu.classList.toggle('open');
-  });
-</script>
-<!-- Cerrar menú -->
-<script>
-  const closeButton = document.querySelector('.close-menu');
-
-  closeButton.addEventListener('click', () => {
-    menu.classList.remove('open');
-  });
-</script>
+  <!-- Menu toggle is handled by scripts.js -->
 <!--termina pie de pagina-->
 </body>
 </html>
