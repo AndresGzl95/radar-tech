@@ -13,7 +13,7 @@
   Tu navegador no soporta audio embebido.
 </audio>
 
-📥 [Descargar cápsula editorial](assets/audio/noches_blancas.webm)
+📥 [Descargar cápsula editorial](assets/audio/cafe.webm)
 ---
 
 ## I. Introducción: El Sótano donde el Tiempo Abre una Brecha
