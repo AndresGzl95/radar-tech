@@ -114,6 +114,7 @@ superar el pasado con vías que aún
 puede ser, para tener esperanza que al  
 final tendré la vida que en algunos  
 de mis pasados soñé.
+
 ---
 
 # 🤖 El Algoritmo de la Melancolía: Una relectura de *Noches Blancas* en la era de la Hiperconectividad
